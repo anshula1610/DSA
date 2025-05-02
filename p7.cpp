@@ -5,14 +5,14 @@ int main(){
         int value=i; 
         for(int j=0;j<=i;j++){
             cout<<value;
-            value--;
+            value++;
         }
         cout<<"\n";
     }
     for(int i=0;i<=3;i++){
         int value=i; 
         for(int j=0;j<=i;j++){
-            cout<<i-j;
+            cout<<i+j;
         }
         cout<<"\n";
     }
